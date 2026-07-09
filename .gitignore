@@ -1,0 +1,11 @@
+node_modules
+.attio
+
+# editor
+.DS_Store
+.cursor
+
+# build
+graphql.d.ts
+dist/
+tsconfig.tsbuildinfo
