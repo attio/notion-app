@@ -31,19 +31,10 @@
   "dependencies": {
     "@attio/fetchable": "0.0.1-experimental.9",
     "@notionhq/client": "^5.22.0",
-    "attio": "0.0.1-experimental.20260609",
+    "attio": "0.0.1-experimental.20260724.1",
     "date-fns": "^4.4.0",
     "react": "19.1.0",
     "zod": "3.25.67"
   },
-  "packageManager": "pnpm@10.33.3",
-  "pnpm": {
-    "overrides": {
-      "rollup": "4.34.9"
-    },
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "keytar"
-    ]
-  }
+  "packageManager": "pnpm@10.33.3"
 }

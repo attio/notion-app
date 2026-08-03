@@ -1,10 +1,10 @@
 import { isErrored } from "@attio/fetchable";
 import { Workflows } from "attio/server";
-import { Config } from "../../lib/config";
-import { notion } from "../../notion/client";
-import { buildDatabasePageProperties } from "../../notion/data-source-properties";
-import { formatMissingCapabilities } from "../../notion/helpers";
-import { NOTION_CAPABILITY_LABELS } from "../../notion/types";
+import { Config } from "../../../lib/config";
+import { notion } from "../../../notion/client";
+import { buildDatabasePageProperties } from "../../../notion/data-source-properties";
+import { formatMissingCapabilities } from "../../../notion/helpers";
+import { NOTION_CAPABILITY_LABELS } from "../../../notion/types";
 import block from "./block";
 
 export default Workflows.defineWorkflowBlockExecute(

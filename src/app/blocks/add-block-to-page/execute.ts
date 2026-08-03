@@ -1,14 +1,14 @@
 import { isErrored } from "@attio/fetchable";
 import type { BlockObjectRequest } from "@notionhq/client";
 import { Workflows } from "attio/server";
-import { Config } from "../../lib/config";
-import { notion } from "../../notion/client";
+import { Config } from "../../../lib/config";
+import { notion } from "../../../notion/client";
 import {
   buildBlock,
   formatMissingCapabilities,
   markdownToBlocks,
-} from "../../notion/helpers";
-import { NOTION_CAPABILITY_LABELS } from "../../notion/types";
+} from "../../../notion/helpers";
+import { NOTION_CAPABILITY_LABELS } from "../../../notion/types";
 import block from "./block";
 
 export default Workflows.defineWorkflowBlockExecute(

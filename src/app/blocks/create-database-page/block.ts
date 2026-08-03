@@ -1,5 +1,5 @@
 import { Workflows } from "attio";
-import { Config } from "../../lib/config";
+import { Config } from "../../../lib/config";
 
 export default Workflows.defineWorkflowBlock({
   type: "step",

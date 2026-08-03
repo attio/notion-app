@@ -1,5 +1,5 @@
 import { Workflows } from "attio/client";
-import { ADD_TO_OPTIONS, providePageOptions } from "../../lib/options";
+import { ADD_TO_OPTIONS, providePageOptions } from "../../../lib/options";
 import block from "./block";
 
 export default Workflows.defineConfigurator(block, ({ configSchema }) => {

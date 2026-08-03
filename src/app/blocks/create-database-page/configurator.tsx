@@ -3,15 +3,15 @@ import { Banner, useAsyncCache, Workflows } from "attio/client";
 import {
   provideDataSourceOptions,
   provideUserOptions,
-} from "../../lib/options";
+} from "../../../lib/options";
 import {
   type ConfigurableProperty,
   getConfigurableProperties,
   SETTABLE_PROPERTY_TYPE_LABELS,
-} from "../../notion/data-source-properties";
-import { formatMissingCapabilities } from "../../notion/helpers";
-import { NOTION_CAPABILITY_LABELS } from "../../notion/types";
-import getDataSource from "../../server-functions/get-data-source.server";
+} from "../../../notion/data-source-properties";
+import { formatMissingCapabilities } from "../../../notion/helpers";
+import { NOTION_CAPABILITY_LABELS } from "../../../notion/types";
+import getDataSource from "../../../server-functions/get-data-source.server";
 import block from "./block";
 
 /** The config path of one row in the `properties` collection. */

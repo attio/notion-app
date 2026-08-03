@@ -48,9 +48,7 @@ export function buildRichTextItems(
  * list items parsed from markdown.
  */
 type SupportedBlockType =
-  | NotionTextBlockType
-  | "bulleted_list_item"
-  | "numbered_list_item";
+  NotionTextBlockType | "bulleted_list_item" | "numbered_list_item";
 
 /** Wrap a pre-built rich-text array in the requested block type. */
 function wrapRichText(

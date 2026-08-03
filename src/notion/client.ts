@@ -32,8 +32,7 @@ export type NotionPageProperties = NonNullable<
 
 /** The parent under which a new Notion page is created. */
 export type NotionCreatePageParent =
-  | { page_id: string }
-  | { data_source_id: string };
+  { page_id: string } | { data_source_id: string };
 
 export const notion = {
   /**
@@ -266,9 +265,7 @@ export const notion = {
     }
 
     let firstBlock:
-      | PartialBlockObjectResponse
-      | BlockObjectResponse
-      | undefined;
+      PartialBlockObjectResponse | BlockObjectResponse | undefined;
     let afterBlockId = "";
 
     for (let offset = 0; offset < blocks.length; offset += APPEND_BATCH_SIZE) {
