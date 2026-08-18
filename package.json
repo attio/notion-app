@@ -31,7 +31,7 @@
   "dependencies": {
     "@attio/fetchable": "0.0.1-experimental.9",
     "@notionhq/client": "^5.22.0",
-    "attio": "0.0.1-experimental.20260724.1",
+    "attio": "1.0.0",
     "date-fns": "^4.4.0",
     "react": "19.1.0",
     "zod": "3.25.67"
